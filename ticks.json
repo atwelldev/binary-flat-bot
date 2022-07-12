@@ -1,0 +1,18 @@
+{
+  "echo_req": {
+    "ticks": "frxAUDUSD"
+  },
+  "msg_type": "tick",
+  "subscription": {
+    "id": "e7ccc305-3b32-01b0-03a1-34c6646f02ae"
+  },
+  "tick": {
+    "ask": 0.7071,
+    "bid": 0.70708,
+    "epoch": 1601300032,
+    "id": "e7ccc305-3b32-01b0-03a1-34c6646f02ae",
+    "pip_size": 5,
+    "quote": 0.70709,
+    "symbol": "frxAUDUSD"
+  }
+}
