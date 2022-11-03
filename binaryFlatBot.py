@@ -16,8 +16,6 @@ colorama.init()
 # app_id:   23639	
 # accuracy: 80%
 
-#telegram url: https://api.telegram.org/bot1118946874:AAHwDjJ6FJHqEnQyCcBfb1WekEXl1dIFFC4/
-
 # pip3 install websocket-client
 
 # for check markets (active symbols)
@@ -86,7 +84,7 @@ def candleRecv(symbol):
 
 def sendFlat(symbol = None):
     time = datetime.datetime.today()
-    requests.get(f'https://api.telegram.org/bot1118946874:AAHwDjJ6FJHqEnQyCcBfb1WekEXl1dIFFC4/sendMessage?chat_id=1023337472&text=Currency pair: {symbol}\nTime: {time}')
+    requests.get(f'=Currency pair: {symbol}\nTime: {time}')
 
 async def checkSymbol(symbol, candleHistory):
     candleArray = ast.literal_eval(candleHistory)["candles"]
